@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Labb 3</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	
+	<body>
+		<form id="mainform" action="savepost.php" method="post">
+			Name of Author: <br>
+			<input id="author" type="text" form="mainform" name="author">
+			<br>
+			Headline:<br>
+			<input id="heading" type="text" form="mainform" name="heading">
+			<br>
+			Content:<br>
+			<textarea id="entry" form="mainform" name="entry"></textarea>
+			<br>
+			Password:<br>
+			<input id="password" type="text" form="mainform" name="password">
+		</form>
+		
+		<button id="submit" onclick="submit()">Submit</button>
+		
+		<script type="text/javascript" src="js/MyScript.js"></script>
+	</body>
+</html>
